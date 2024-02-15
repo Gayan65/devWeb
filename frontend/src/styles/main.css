@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inria+Sans&family=Libre+Baskerville&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,11 +15,13 @@ a,
     font-size: 20px;
     color: #000000;
     text-decoration: none;
+    transition: color, 0.15s;
 }
 
 .nav-logo {
     font-size: 28px;
     display: inline-block;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -27,6 +30,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    border-bottom: #0000005b solid 1px;
 }
 
 .nav-links,
@@ -47,8 +51,19 @@ nav,
     margin-right: 20px; /* Adjust the margin between navigation items */
 }
 
+a:hover {
+    color: #f9473b;
+}
+
 .cta {
     padding: 10px 20px; /* Adjust padding for login CTA */
     border: 2px solid #000; /* Add a border for better visibility */
     border-radius: 5px; /* Add border-radius for a rounded appearance */
+    color: #ffff;
+    background-color: #f9473b;
+}
+
+.logo-letters {
+    color: #f9473b;
+    font-weight: 700;
 }

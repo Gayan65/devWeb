@@ -4,7 +4,9 @@ const Nav = () => {
     return (
         <div>
             <header>
-                <div className="nav-logo">techHive</div>
+                <div className="nav-logo">
+                    <span className="logo-letters">tech</span>Hive
+                </div>
                 <nav>
                     <ul className="nav-links">
                         <li>
