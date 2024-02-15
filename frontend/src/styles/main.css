@@ -2,3 +2,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.navbar {
+    background-color: #eeee;
+    height: 93px;
+}
+
+.nav-ul-list {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.nav-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-logo {
+    display: inline-block;
+}
+
+.nav-login {
+    display: inline-block;
+}
