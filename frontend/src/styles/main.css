@@ -1,29 +1,54 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&family=Libre+Baskerville&display=swap");
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #ffff;
+    font-family: "Inria Sans", sans-serif;
 }
 
-.navbar {
-    background-color: #eeee;
-    height: 93px;
-}
-
-.nav-ul-list {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-}
-
-.nav-list {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+li,
+a,
+.cta {
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
 }
 
 .nav-logo {
+    font-size: 28px;
     display: inline-block;
 }
 
-.nav-login {
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links,
+li,
+nav,
+.cta {
     display: inline-block;
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the margin between navigation items */
+}
+
+.cta {
+    padding: 10px 20px; /* Adjust padding for login CTA */
+    border: 2px solid #000; /* Add a border for better visibility */
+    border-radius: 5px; /* Add border-radius for a rounded appearance */
 }

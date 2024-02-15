@@ -3,16 +3,26 @@ import React from "react";
 const Nav = () => {
     return (
         <div>
-            <nav className="navbar">
-                <div className="nav-logo">Logo</div>
-                <ul className="nav-ul-list">
-                    <li className="nav-list">About Us</li>
-                    <li className="nav-list">Contact Us</li>
-                    <li className="nav-list">Services</li>
-                    <li className="nav-list">Pricing</li>
-                </ul>
-                <div className="nav-login">Login</div>
-            </nav>
+            <header>
+                <div className="nav-logo">techHive</div>
+                <nav>
+                    <ul className="nav-links">
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div className="cta">Login</div>
+            </header>
         </div>
     );
 };
