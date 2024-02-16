@@ -15,7 +15,18 @@ a,
     font-size: 20px;
     color: #000000;
     text-decoration: none;
-    transition: color, 0.15s;
+    transition: color 0.15s, background-color 0.15s;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: #ffff;
+    color: #000000;
+}
+
+.cta:active {
+    background-color: #000000;
+    color: #ffff;
 }
 
 .nav-logo {

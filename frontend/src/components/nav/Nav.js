@@ -23,7 +23,7 @@ const Nav = () => {
                         </li>
                     </ul>
                 </nav>
-                <div className="cta">Login</div>
+                <button className="cta">Login</button>
             </header>
         </div>
     );
