@@ -161,3 +161,9 @@ a:hover {
     background-color: #f9473b;
     border: #f9473b solid 2px;
 }
+
+.button-primary-lg:active {
+    color: #f9473b;
+    background: transparent;
+    border: #f9473b solid 2px;
+}
