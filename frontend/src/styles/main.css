@@ -167,3 +167,14 @@ a:hover {
     background: transparent;
     border: #f9473b solid 2px;
 }
+
+@media screen and (max-width: 800px) {
+    .hero-landing-header-1,
+    .hero-landing-header-1-briliance {
+        font-size: 40px;
+    }
+
+    .hero-landing-header-2 {
+        font-size: 25px;
+    }
+}
