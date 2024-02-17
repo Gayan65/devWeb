@@ -103,10 +103,11 @@ a:hover {
     background: transparent;
     position: absolute;
     color: #ffff;
-    top: 25%;
+    top: 20%;
     left: 10%;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     line-height: 10vh;
+    text-shadow: 3px 3px 8px #000000;
 }
 
 .hero-landing-header-1-briliance {
@@ -115,6 +116,27 @@ a:hover {
     justify-content: center;
     font-size: 50px; /* Adjust font size */
     background: transparent;
-    position: absolute;
     color: #f9473b;
+    text-align: start;
+    position: absolute;
+    display: flex;
+    top: 32%;
+    left: 10%;
+    letter-spacing: 8px;
+    text-shadow: 3px 3px 8px #000000;
+}
+
+.hero-landing-header-2 {
+    text-align: start; /* Center text horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px; /* Adjust font size */
+    background: transparent;
+    position: absolute;
+    color: #ffff;
+    top: 47%;
+    left: 10%;
+    line-height: 6vh;
+    text-shadow: 3px 3px 8px #000000;
 }
