@@ -15,7 +15,7 @@ a,
     font-size: 20px;
     color: #000000;
     text-decoration: none;
-    transition: color 0.15s, background-color 0.15s;
+    transition: color 0.17s, background-color 0.17s, border 0.17s;
     cursor: pointer;
 }
 
@@ -139,4 +139,25 @@ a:hover {
     left: 10%;
     line-height: 6vh;
     text-shadow: 3px 3px 8px #000000;
+}
+
+.button-primary-lg {
+    text-align: start; /* Center text horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px; /* Adjust font size */
+    background: transparent;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    line-height: 6vh;
+    border: #ffff solid 2px;
+    box-shadow: 2px 2px 15px #000000;
+}
+
+.button-primary-lg:hover {
+    color: #ffff;
+    background-color: #f9473b;
+    border: #f9473b solid 2px;
 }

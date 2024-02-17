@@ -12,6 +12,7 @@ const Landing = () => {
                     <p className="hero-landing-header-2">
                         "Powerful solutions for every need, crafted in code."
                     </p>
+                    <button className="cta button-primary-lg">Services</button>
                 </div>
             </div>
         </div>
