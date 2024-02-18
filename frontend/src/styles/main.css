@@ -17,6 +17,7 @@ a,
     text-decoration: none;
     transition: color 0.17s, background-color 0.17s, border 0.17s;
     cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .cta:hover {
