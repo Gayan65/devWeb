@@ -177,7 +177,9 @@ a:hover {
 .mobnav ul li {
     width: 100%;
     display: block;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 10vh;
+    padding-bottom: 10px;
 }
 
 .nav-toggler {
@@ -192,6 +194,52 @@ a:hover {
     background-repeat: no-repeat; /* Prevent the background image from repeating */
     display: none;
 }
+
+/* nav bar toggler effects starts */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.loading-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.loading-list-item {
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.loading-list-item:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.loading-list-item:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.loading-list-item:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.loading-list-item:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.loading-list-item:nth-child(5) {
+    animation-delay: 1s;
+}
+
+/* nav bar toggler effects ends */
 
 @media screen and (max-width: 840px) {
     .hero-landing-header-1,

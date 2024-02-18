@@ -34,20 +34,20 @@ const Nav = () => {
             <div className="mobnav">
                 {isToggled && (
                     <nav>
-                        <ul className="nav-links ">
-                            <li>
+                        <ul className="nav-links loading-list">
+                            <li className="loading-list-item">
                                 <a href="#">About Us</a>
                             </li>
-                            <li>
+                            <li className="loading-list-item">
                                 <a href="#">Contact Us</a>
                             </li>
-                            <li>
+                            <li className="loading-list-item">
                                 <a href="#">Services</a>
                             </li>
-                            <li>
+                            <li className="loading-list-item">
                                 <a href="#">Pricing</a>
                             </li>
-                            <li>
+                            <li className="loading-list-item">
                                 <button className="cta">Login</button>
                             </li>
                         </ul>
