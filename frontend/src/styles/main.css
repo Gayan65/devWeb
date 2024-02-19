@@ -263,4 +263,17 @@ a:hover {
     .nav-login {
         display: none;
     }
+    @media screen and (max-width: 616px) {
+        .hero-landing-header-1,
+        .hero-landing-header-1-briliance {
+            font-size: 30px;
+            letter-spacing: 3px;
+            line-height: normal;
+        }
+
+        .hero-landing-header-2 {
+            font-size: 15px;
+            top: 40%;
+        }
+    }
 }
