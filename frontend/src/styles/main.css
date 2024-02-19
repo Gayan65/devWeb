@@ -195,6 +195,9 @@ a:hover {
     display: none;
 }
 
+.nav-toggler:hover {
+    background-image: url("../assests/icons/navtogller2.png");
+}
 /* nav bar toggler effects starts */
 
 @keyframes fadeIn {
